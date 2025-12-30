@@ -1,0 +1,200 @@
+[
+  {
+    "id": 29,
+    "nombre": "Muzza con Albahaca",
+    "descripcion": null,
+    "precio": "10500.00",
+    "precio2": null,
+    "id_categoria": 1,
+    "activo": 1
+  },
+  {
+    "id": 31,
+    "nombre": "Muzza con Anchoas",
+    "descripcion": null,
+    "precio": "13000.00",
+    "precio2": null,
+    "id_categoria": 1,
+    "activo": 1
+  },
+  {
+    "id": 28,
+    "nombre": "Muzza con Huevo Picado",
+    "descripcion": null,
+    "precio": "10200.00",
+    "precio2": null,
+    "id_categoria": 1,
+    "activo": 1
+  },
+  {
+    "id": 30,
+    "nombre": "Muzza con Papas Pay",
+    "descripcion": null,
+    "precio": "10600.00",
+    "precio2": null,
+    "id_categoria": 1,
+    "activo": 1
+  },
+  {
+    "id": 27,
+    "nombre": "Muzzarella",
+    "descripcion": null,
+    "precio": "9800.00",
+    "precio2": null,
+    "id_categoria": 1,
+    "activo": 1
+  },
+  {
+    "id": 26,
+    "nombre": "Hamburguesa",
+    "descripcion": "Cheddar, Panceta y Huevo",
+    "precio": "12500.00",
+    "precio2": null,
+    "id_categoria": 2,
+    "activo": 1
+  },
+  {
+    "id": 25,
+    "nombre": "Hamburguesa",
+    "descripcion": "Cheddar, Panceta y Cebolla",
+    "precio": "12500.00",
+    "precio2": null,
+    "id_categoria": 2,
+    "activo": 1
+  },
+  {
+    "id": 24,
+    "nombre": "Hamburguesa",
+    "descripcion": "Cheddar y Panceta",
+    "precio": "11600.00",
+    "precio2": null,
+    "id_categoria": 2,
+    "activo": 1
+  },
+  {
+    "id": 23,
+    "nombre": "Hamburguesa",
+    "descripcion": "Jamón, Queso, Lechuga, Tomate y Huevo",
+    "precio": "13000.00",
+    "precio2": null,
+    "id_categoria": 2,
+    "activo": 1
+  },
+  {
+    "id": 3,
+    "nombre": "Lomito Completo",
+    "descripcion": "Carne, jamón, queso y huevo",
+    "precio": "4800.00",
+    "precio2": null,
+    "id_categoria": 3,
+    "activo": 1
+  },
+  {
+    "id": 15,
+    "nombre": "Caprese",
+    "descripcion": null,
+    "precio": "17200.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 6,
+    "nombre": "Carne (Frita)",
+    "descripcion": null,
+    "precio": "15500.00",
+    "precio2": "1234.50",
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 5,
+    "nombre": "Carne (Horno)",
+    "descripcion": null,
+    "precio": "15000.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 16,
+    "nombre": "Cebolla y Queso",
+    "descripcion": null,
+    "precio": "17500.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 18,
+    "nombre": "Humita",
+    "descripcion": null,
+    "precio": "17800.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 13,
+    "nombre": "Jamón y Queso",
+    "descripcion": null,
+    "precio": "15400.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 17,
+    "nombre": "Jamón y Roquefort",
+    "descripcion": null,
+    "precio": "18200.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 12,
+    "nombre": "Pollo",
+    "descripcion": null,
+    "precio": "16200.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 14,
+    "nombre": "Verdura y Queso",
+    "descripcion": null,
+    "precio": "16600.00",
+    "precio2": null,
+    "id_categoria": 4,
+    "activo": 1
+  },
+  {
+    "id": 9,
+    "nombre": "Promo 1",
+    "descripcion": "2 Muzzas",
+    "precio": "17000.00",
+    "precio2": null,
+    "id_categoria": 6,
+    "activo": 1
+  },
+  {
+    "id": 10,
+    "nombre": "Promo 2",
+    "descripcion": "1 Muzza + 1 Especial",
+    "precio": "19000.00",
+    "precio2": null,
+    "id_categoria": 6,
+    "activo": 1
+  },
+  {
+    "id": 11,
+    "nombre": "Promo 3",
+    "descripcion": "1 Especial + 1 Docena Empanadas",
+    "precio": "25000.00",
+    "precio2": null,
+    "id_categoria": 6,
+    "activo": 1
+  }
+]

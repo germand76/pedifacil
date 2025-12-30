@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+   
+}
+body {
+    /* font-family: system-ui, sans-serif; */
+    margin: 0;
+    background: #f8f8f8;
+    width: 100%;
+}
+
+header {
+    /* background: #3768b1;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%; */
+}
+.hero {
+    width: 100%;
+    min-height: 60vh;              
+    background-image: url('../images/header.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+.hero-solo {
+    min-height: 50vh;
+  }
+  
+  .pedido-header {
+    padding: 1rem;
+    background: #ff6b00;
+    color: white;
+    text-align: center;
+  }
+  
+  .pedido-container {
+    padding: 1rem;
+  }
+  
+  .pedido-item {
+    background: white;
+    padding: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-radius: 8px;
+  
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  
+  .pedido-cantidad input {
+    width: 60px;
+  }
+  
+  .btn-eliminar {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    color: red;
+    cursor: pointer;
+  }
+  
+  .pedido-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+  
+  .btn-confirmar {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #ff6b00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+
+  .pedido-card {
+    background: #fff;
+    padding: 0.75rem;
+    border-radius: 10px;
+    margin-bottom: 0.75rem;
+  
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .pedido-info h6 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .pedido-info .desc {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0.25rem 0;
+  }
+  
+  .pedido-info .cantidad {
+    font-size: 0.85rem;
+  }
+  
+  .pedido-precio {
+    text-align: right;
+  }
+  
+  .btn-eliminar {
+    background: none;
+    border: none;
+    color: #d00;
+    font-size: 0.8rem;
+  }
+
+.btn-agregar-mas{
+    width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  background-color: #a57676;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}

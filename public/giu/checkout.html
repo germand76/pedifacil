@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos del pedido</title>
+  <link rel="stylesheet" href="assets/css/chaeckout.css">
+</head>
+<body>
+
+  
+  <h1>Datos del Pedido</h1>
+
+  <form id="registroForm" class="formu">
+
+    <div class="form-groupR">
+      <label for="apeynomb">Nombre y Apellido:</label>
+      <span>Indicanos al menos tu nombre</span>
+      <input type="text" id="apeynomb" name="apeynomb" />
+    </div>
+
+    <div class="form-groupR">
+      <label for="nromesa">Número de Mesa:</label>
+      <span>Por favor indicanos de que forma queres efectuar el pago de la cuenta</span>
+      <input type="number" id="nromesa" name="nromesa" min="1" />
+    </div>
+
+    <div class="form-groupRR">
+      <label>Forma de Pago:</label>
+      <span>Indicá cómo vas a pagar</span>
+
+      <div class="radio-group">
+
+        <div class="radio-item">
+          <input
+            class="inputRadio"
+            type="radio"
+            id="pago-electronico"
+            name="forma_pago"
+            value="Transferencia / Tarjeta"
+          />
+          <label class="labelRadio" for="pago-electronico">
+            Transferencia / Tarjeta
+          </label>
+        </div>
+
+        <div class="radio-item">
+          <input
+            class="inputRadio"
+            type="radio"
+            id="pago-efectivo"
+            name="forma_pago"
+            value="Efectivo"
+          />
+          <label class="labelRadio" for="pago-efectivo">
+            Efectivo
+          </label>
+        </div>
+
+      </div>
+    </div>
+
+  </form>
+
+  <section class="botones">
+    <button id="btn-enviar" class="btn-enviar">
+      Enviar Pedido
+    </button>
+    <button id="btn-volver" class="btn-volver">
+      Volver al Pedido
+    </button>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script type="module" src="assets/scripts/checkout.js"></script>
+</body>
+</html>

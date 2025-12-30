@@ -1,0 +1,5 @@
+/giu/menu     /giu/menu.html     200
+/giu/pedido   /giu/pedido.html   200
+/giu/checkout /giu/checkout.html 200
+/giu/post-pedido /giu/post-pedido.html 200
+/giu/finalizar-pedido /giu/finalizar-pedido.html 200

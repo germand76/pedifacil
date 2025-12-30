@@ -1,0 +1,38 @@
+[
+  {
+    "id": 6,
+    "nombre": "Promos",
+    "activo": 1,
+    "orden": 1
+  },
+  {
+    "id": 1,
+    "nombre": "Pizzas",
+    "activo": 1,
+    "orden": 2
+  },
+  {
+    "id": 2,
+    "nombre": "Hamburguesas",
+    "activo": 1,
+    "orden": 3
+  },
+  {
+    "id": 3,
+    "nombre": "Sandwiches",
+    "activo": 1,
+    "orden": 4
+  },
+  {
+    "id": 4,
+    "nombre": "Empanadas",
+    "activo": 1,
+    "orden": 5
+  },
+  {
+    "id": 5,
+    "nombre": "Bebidas",
+    "activo": 1,
+    "orden": 6
+  }
+]
