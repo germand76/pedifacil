@@ -1,26 +1,38 @@
 export default {
     async fetch(request, env) {
-      const url = new URL(request.url);
+      try {
+        const url = new URL(request.url);
+        const path = url.pathname.replace(/\/+$/, ""); // sin slash final
   
-      // Rutas limpias -> archivos .html
-      const rewrites = new Map([
-        ["/giu/menu", "/giu/menu.html"],
-        ["/giu/pedido", "/giu/pedido.html"],
-        ["/giu/checkout", "/giu/checkout.html"],
-        ["/giu/post-pedido", "/giu/post-pedido.html"],
-        ["/giu/finalizar-pedido", "/giu/finalizar-pedido.html"],
-        ["/giu", "/giu/menu.html"],
-        ["/", "/giu/menu.html"], // opcional: raíz al menú
-      ]);
+        // Split de ruta: /bar/accion
+        const parts = path.split("/").filter(Boolean);
+        const bar = parts[0];
+        const page = parts[1] || "menu";
   
-      const target = rewrites.get(url.pathname);
-      if (target) {
-        url.pathname = target;
-        return env.ASSETS.fetch(new Request(url.toString(), request));
+        // Si no hay bar → redirigir al default
+        if (!bar) {
+          return Response.redirect(`${url.origin}/giu/menu`, 302);
+        }
+  
+        // Construir path al HTML
+        const htmlPath = `/${bar}/${page}.html`;
+        const assetUrl = new URL(htmlPath, url.origin);
+  
+        // Intentar servir el HTML
+        const response = await env.ASSETS.fetch(assetUrl);
+  
+        // Si existe → devolverlo
+        if (response.status !== 404) {
+          return response;
+        }
+  
+        // Si NO existe → fallback al menu del bar
+        return Response.redirect(`${url.origin}/${bar}/menu`, 302);
+  
+      } catch (err) {
+        // Nunca dejar caer el Worker
+        return new Response("Internal Worker Error", { status: 500 });
       }
-  
-      // fallback: assets normales
-      return env.ASSETS.fetch(request);
     }
   };
   
